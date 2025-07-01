@@ -23,14 +23,15 @@ model = LinearRegression().fit(X, y)
 
 # Web UI
 
-st.subheader("📚 STUDENT GRADE PREDICTION SYSTEM")
+#st.subheader("📚 STUDENT GRADE PREDICTION SYSTEM")
+st.write("##### 📚 STUDENT GRADE PREDICTION SYSTEM")
 
 # Using padding-left or margin-left to push the text over.
 # 'em' units are relative to the font size, so it can be more robust than 'px'
 # for text alignment, but still requires tuning.
 st.markdown(
     """
-    <p style="padding-left: 8ch; font-weight: 300; font-size: small;color: #666;margin-bottom: 0px;">
+    <p style="padding-left: 5ch; font-weight: 300; font-size: small;color: #666;margin-bottom: 0px;">
         © Copyright Dr Paramjit Singh, 2025. All Rights Reserved.
     </p>
     """,
