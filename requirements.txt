@@ -1,1 +1,8 @@
-pip install scikit-learn
+scikit-learn
+streamlit
+numpy
+pandas
+matplotlib
+fpdf
+gspread
+oauth2client
